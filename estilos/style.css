@@ -38,7 +38,8 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
-    padding-top: 40px
+    padding-top: 40px;
+    z-index: 2;
 }
 
 header > h1 {
@@ -83,6 +84,7 @@ nav > a:hover {
 }
 
 main {
+    z-index: 1;
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
@@ -148,6 +150,10 @@ footer a{
 footer a:hover {
     text-decoration: underline;
 color: var(--cor1);
+}
+
+footer p {
+    text-align: center;
 }
 
 .pequena {
